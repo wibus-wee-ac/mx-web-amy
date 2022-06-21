@@ -1,0 +1,66 @@
+.postEntryContent {
+  word-break: break-all;
+}
+
+.articleHeadlineP {
+  text-shadow: 0 0 6px var(--primary-800)
+}
+
+
+.postBoxState {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--primary-300);
+  border-bottom: 1px solid var(--primary-300)
+}
+
+.postBoxState .postBoxStateBtns:hover {
+  background-color: var(--primary-300)
+}
+
+.postBoxState .postBoxStateBtns {
+  border-radius: 2px;
+  color: #616770;
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 19px;
+  flex: 1;
+  width: 100%;
+  border: 0;
+  margin: 4px 4px;
+  box-shadow: none;
+  padding: 9px 5px;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.postBoxState .postBoxStateBtns a {
+  color: #616770
+}
+
+.postBoxState span {
+  margin-left: 4px
+}
+
+
+.postThumbnailCustom::after {
+  content: "";
+  background: rgb(32 54 86 / 43%);
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  backdrop-filter: saturate(180%) blur(15px);
+  -webkit-backdrop-filter: saturate(130%) blur(15px);
+  border-radius: 5px
+}

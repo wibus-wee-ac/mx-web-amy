@@ -1,0 +1,14 @@
+.md sub span,
+.md sup span {
+  border: 0 !important;
+}
+
+.md sub,
+.md sup > a {
+   display: inline-block;
+}
+
+.md sub,
+.md sup  > a::first-letter {
+    visibility: hidden;
+}
